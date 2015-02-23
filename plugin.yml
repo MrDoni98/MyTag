@@ -1,0 +1,8 @@
+name: MyTag
+main: MyTag\Loader
+version: 1.0.0
+api: [1.0.0]
+load: STARTUP
+author: Gamecrafter
+description: Players get to control what is on their name tag!
+website: https://github.com/Gamecrafter/MyTag
