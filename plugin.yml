@@ -6,3 +6,28 @@ load: STARTUP
 author: Gamecrafter
 description: Players get to control what is on their name tag!
 website: https://github.com/Gamecrafter/MyTag
+commands:
+ healthtag:
+  description: Shows the user's health on their tag
+  usage: /healthtag
+  permission: mytag.command.healthtag
+ hidetag:
+  description: Hides the user's tag
+  usage: /hidetag
+  permission: mytag.command.hidetag
+ iptag:
+  description: Shows the user's IP address on their tag
+  usage: /iptag
+  permission: mytag.command.iptag
+ optag:
+  description: Shows the user's op status, if they have it
+  usage: /optag
+  permission: mytag.command.optag
+ nametag:
+  description: Shows the user's default tag
+  usage: /showtag
+  permission: mytag.command.nametag
+ tag:
+  description: Show the user's tag to the user
+  usage: /tag
+  permission: mytag.command.tag
