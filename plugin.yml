@@ -31,3 +31,30 @@ commands:
   description: Show the user's tag to the user
   usage: /tag
   permission: mytag.command.tag
+permissions:
+ mytag:
+  default: op
+  description: Allows access to all MyTag features
+  children:
+   mytag.command:
+    default: op
+    description: Allows use of all MyTag commands
+    children:
+     mytag.command.healthtag:
+      default: true
+      description: Allows use of /healthtag
+     mytag.command.hidetag:
+      default: true
+      description: Allows use of /hidetag
+     mytag.command.iptag:
+      default: true
+      description: Allows use of /iptag
+     mytag.command.nametag:
+      default: true
+      description: Allows use of /nametag
+     mytag.command.optag:
+      default: true
+      description: Allows use of /optag
+     mytag.command.tag:
+      default: true
+      description: Allows use of /tag
