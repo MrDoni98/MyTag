@@ -106,6 +106,14 @@ class Loader extends PluginBase implements Listener{
         }
     }
     
+    public function onEntityDamage(EntityDamageEvent $event){
+    
+    }
+
+    public function onEntityRegainHealth(EntityRegainHealthEvent $event){
+
+    }
+
     public function onPlayerQuit(PlayerQuitEvent $event){
         $player = $event->getPlayer();
         $name = $player->getName();
