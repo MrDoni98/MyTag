@@ -7,54 +7,11 @@ author: Gamecrafter
 description: Players get to control what is on their name tag!
 website: https://github.com/Gamecrafter/MyTag
 commands:
- healthtag:
-  description: Shows the user's health on their tag
-  usage: /healthtag
-  permission: mytag.command.healthtag
- hidetag:
-  description: Hides the user's tag
-  usage: /hidetag
-  permission: mytag.command.hidetag
- iptag:
-  description: Shows the user's IP address on their tag
-  usage: /iptag
-  permission: mytag.command.iptag 
- nametag:
-  description: Shows the user's default tag
-  usage: /showtag
-  permission: mytag.command.nametag
- optag:
-  description: Shows the user's op status, if they have it
-  usage: /optag
-  permission: mytag.command.optag
  tag:
-  description: Show the user's tag to the user
-  usage: /tag
+  description:
+  usage: /tag <address/health/hide/money/op/restore/show>
   permission: mytag.command.tag
 permissions:
- mytag:
-  default: op
-  description: Allows access to all MyTag features
-  children:
-   mytag.command:
-    default: op
-    description: Allows use of all MyTag commands
-    children:
-     mytag.command.healthtag:
-      default: true
-      description: Allows use of /healthtag
-     mytag.command.hidetag:
-      default: true
-      description: Allows use of /hidetag
-     mytag.command.iptag:
-      default: true
-      description: Allows use of /iptag
-     mytag.command.nametag:
-      default: true
-      description: Allows use of /nametag
-     mytag.command.optag:
-      default: true
-      description: Allows use of /optag
-     mytag.command.tag:
-      default: true
-      description: Allows use of /tag
+ mytag.command.tag:
+  default: true
+  description: Allows use of /tag
