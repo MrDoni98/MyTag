@@ -84,6 +84,8 @@ class Loader extends PluginBase implements Listener{
                             $sender->setNameTag("Incognito mode disabled!");
                             return true;
                         break;
+                        case "view":
+                        break;
                     }
                 }
                 else{
