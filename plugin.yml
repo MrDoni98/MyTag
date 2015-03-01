@@ -9,7 +9,7 @@ website: https://github.com/Gamecrafter/MyTag
 commands:
  tag:
   description:
-  usage: /tag <address/health/hide/money/op/restore/show>
+  usage: /tag <address/health/hide/money/op/restore/show/view>
   permission: mytag.command.tag
 permissions:
  mytag.command.tag:
